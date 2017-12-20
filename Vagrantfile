@@ -12,7 +12,7 @@ homesteadJsonPath = File.expand_path("Homestead.json", File.dirname(__FILE__))
 afterScriptPath = "after.sh"
 aliasesPath = "aliases"
 
-require File.expand_path(confDir + '/scripts/homestead.rb')
+require File.expand_path('scripts/homestead.rb')
 
 Vagrant.require_version '>= 1.9.0'
 
